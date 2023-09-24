@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Pig game</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/893f38d450.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="player one">
+        <div class="player-tag">
+          PLAYER 1
+          <span class="totalScores">0</span>
+        </div>
+
+        <div class="currentFlex">
+          <div class="currentWrapper">
+            CURRENT<span class="currentScores"> 0 </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="player two">
+        <div class="player-tag">
+          PLAYER 2
+          <span class="totalScores">0</span>
+        </div>
+
+        <div class="currentFlex">
+          <div class="currentWrapper">
+            CURRENT<span class="currentScores"> 0 </span>
+          </div>
+        </div>
+      </div>
+      <button class="newGame">&#9664; NEW GAME</button>
+      <button class="rollDice">&#127922; ROLL DICE</button>
+      <button class="hold">📥 HOLD</button>
+
+      <img class="hidden diceImg" src="dice-six-faces-one.png" />
+      <!--<i class="hidden fa-solid fa-dice-one"></i>
+      <i class="hidden fa-solid fa-dice-two"></i>
+      <i class="hidden fa-solid fa-dice-three"></i>
+      <i class="hidden fa-solid fa-dice-four"></i>
+      <i class="hidden fa-solid fa-dice-five"></i>
+      <i class="hidden fa-solid fa-dice-six"></i>-->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
